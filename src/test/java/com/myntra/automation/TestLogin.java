@@ -24,7 +24,7 @@ public class TestLogin {
         LoginPage loginPage = new LoginPage(driver);
         loginPage.clickLoginButton();
         loginPage.login("poojadixit1908@gmail.com", "1P@ssw0rd");
-        //verify that the correct user has logged in
+        //verify that the correct user has been logged in
         String currentLoggedInUser = loginPage.getCurrentLoggedInUser();
         Assert.assertEquals("Invalid user logged in", "poojadixit1908@gmail.com", currentLoggedInUser);
     }
