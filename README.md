@@ -1,2 +1,2 @@
 # myntraautomation
-Automation testing exercises for myntra.com
+Automation testing exercises for myntra.com website
