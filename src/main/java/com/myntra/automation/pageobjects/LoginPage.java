@@ -42,6 +42,10 @@ public class LoginPage {
         loginButtonElement.click();
     }
 
+    /**
+     * Gives the current logged in user
+     * @return
+     */
     public String getCurrentLoggedInUser() {
         WebElement infoEmailDiv = driver.findElement(By.className("desktop-infoEmail"));
         String loggedInUserEmail = infoEmailDiv.getText();

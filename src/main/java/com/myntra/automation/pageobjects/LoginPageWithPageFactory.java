@@ -32,4 +32,4 @@ public class LoginPageWithPageFactory {
         loginButtonElement.click();
     }
 
-}x
+}
