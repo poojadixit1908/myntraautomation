@@ -33,6 +33,11 @@ public class LoginPage {
         driver.get("https://www.myntra.com/login");
     }
 
+    /**
+     * Login for the given username and password.
+     * @param username
+     * @param password
+     */
     public void login(String username, String password) {
         WebElement emailElement = driver.findElement(By.cssSelector(".login-user-input-email.login-user-input"));
         WebElement passwordElement = driver.findElement(By.cssSelector(".login-user-input-password.login-user-input"));
